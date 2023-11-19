@@ -3,11 +3,11 @@
    2. Also specified the type=module in the script tags, in the html file
    */
 //imports the different functions and objects from different files
-import { freelanceTable } from "./data.mjs";
-import { randomData } from "./data.mjs";
-import { renderTable } from "./func_initTable.mjs";
-import { updateTable } from "./func_newData.mjs";
-import { updateAverage } from "./func_average.mjs";
+import { freelanceTable } from "./scripts/data.mjs";
+import { randomData } from "./scripts/data.mjs";
+import { renderTable } from "./scripts/func_initTable.mjs";
+import { updateTable } from "./scripts/func_newData.mjs";
+import { updateAverage } from "./scripts/func_average.mjs";
 
 //------------------------------- Initialize Table-----------------------------------------
 renderTable(freelanceTable); //In file func_initTable
