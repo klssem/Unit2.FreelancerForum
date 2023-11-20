@@ -1,0 +1,19 @@
+#mainContent{
+    /* background-color: lightblue; */
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+#averagePriceMessage{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid;
+}
+td{
+    text-align: center;
+    width: 150px;
+}
