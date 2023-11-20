@@ -13,7 +13,7 @@ import { updateAverage } from "./scripts/func_average.mjs";
 renderTable(freelanceTable); //In file func_initTable
 
 //------------------------------- Initialize the average in DOM ---------------------------------------
-let htmlAverage = document.getElementById("averagePrice");
+let htmlAverage = document.querySelector("#averagePrice");
 let firstAverage = updateAverage(freelanceTable);
 htmlAverage.innerHTML = firstAverage;
 
