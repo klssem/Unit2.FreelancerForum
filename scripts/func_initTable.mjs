@@ -10,7 +10,7 @@ export function renderTable(initialTable) {
       let priceCell = newRow.insertCell(2);
       nameCell.innerHTML = currentValue.name;
       occupationCell.innerHTML = currentValue.occupation;
-      priceCell.innerHTML = currentValue.price;
+      priceCell.innerHTML = "$" + currentValue.price;
     });
   }
 
