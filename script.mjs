@@ -5,12 +5,12 @@
 //imports the different functions and objects from different files
 import { freelanceTable } from "./scripts/data.mjs";
 import { randomData } from "./scripts/data.mjs";
-import { renderTable } from "./scripts/func_initTable.mjs";
+import { renderTable } from "./scripts/func_renderTable.mjs";
 import { updateTable } from "./scripts/func_newData.mjs";
 import { updateAverage } from "./scripts/func_average.mjs";
 
 //------------------------------- Initialize Table-----------------------------------------
-renderTable(freelanceTable); //In file func_initTable
+renderTable(freelanceTable); //In file renderTable
 
 //------------------------------- Initialize the average in DOM ---------------------------------------
 let htmlAverage = document.querySelector("#averagePrice");
